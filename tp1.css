@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#6e3208ed, #b49885, #6f350bed);
+}
+.header{
+    margin: 15px auto;
+    width: 90%;
+    background-color: #903c00;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 3px solid #d34502;
+    border-radius: 5px;
+    padding: 20px;
+    color:antiquewhite;
+}
+.header h1{
+    border-bottom:2px solid #612f18;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.header nav a {
+
+    text-decoration: none; /* Quita el subrayado feo */
+    color:antiquewhite;
+    margin: 0 10px; /* Separa los apartados entre sí */
+    font-weight: bold; /* Hace que la letra sea un poco más gruesa */
+    transition: 0.3s;
+}
+/* Efecto cuando pasas el mouse por encima (hover) */
+.header nav a:hover {
+    color: #d34502;
+    text-decoration: underline; /* Que aparezca el subrayado solo al tocarlo */
+    font-size: 1.1rem;          /* Que la letra crezca un poquito */
+    letter-spacing: 3px;
+}
+.inicio{
+    margin: 50px 0 20px 0;
+    width: 100%;
+    border-top: 2px solid #612f18;
+    border-bottom: 2px solid #612f18;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px;
+    color:antiquewhite;
+}
+.items{
+    text-align:left;
+}
+.top{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color:antiquewhite;
+}
+
+.cafes{
+    margin: 20px auto;
+    border:2px solid #d34502;
+    width: 90%;
+    background-color: #903c00;
+    font-family:Georgia, 'Times New Roman', Times, serif;   
+}
+
+h2{
+    text-decoration: underline;
+    margin: 20px 0 20px 0;
+
+}
+h3{
+    text-align: center;
+    padding: 15px;
+    text-decoration: underline;
+}
+.mencion{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color:antiquewhite;
+    margin:15px auto;
+    width: 90%;
+    background-color: #903c00;
+    border: 2px solid #d34502;
+    
+
+}
+
+.contacto{
+    margin: 20px auto;
+    border:2px solid #d34502;
+    width: 90%;
+    background-color: #903c00;
+    font-family:Georgia, 'Times New Roman', Times, serif;   
+}
+
+.cafes img, .mencion img {
+    width: 300px;         /* Ajusta el ancho a tu gusto */
+    height: auto;         /* Mantiene la proporción para que no se deforme */
+    border-radius: 8px;   /* Opcional: le da bordes redondeados */
+    margin: 10px;         /* Separa un poco las imágenes del texto */
+}
+.contacto {
+    text-align: center;
+    padding: 30px;
+    color: antiquewhite;
+    /* Ya tienes el fondo y el borde en tu archivo, así que esto lo complementa */
+}
+
+.contacto p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+.bg-custom {
+    background-color: #903c00 !important; /* El color de tus secciones */
+    border-bottom: 2px solid #d34502;    /* Opcional: la línea naranja que ya usas */
+}
+
+/* Para que los enlaces del menú se vean bien claritos */
+.bg-custom .nav-link {
+    color: antiquewhite !important;
+}
+
+.bg-custom .navbar-brand {
+    color: antiquewhite !important;
+    font-family: Georgia, serif;
+}

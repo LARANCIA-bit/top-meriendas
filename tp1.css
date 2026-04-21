@@ -66,6 +66,23 @@ body{
     background-color: #903c00;
     font-family:Georgia, 'Times New Roman', Times, serif;   
 }
+/* Quita los números del Top 5 */
+.top ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Quita los puntos de la sección de inicio (los requisitos) */
+.items ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Quita los puntos de las menciones honoríficas */
+.mencion ul {
+    list-style-type: none;
+    padding-left: 0;
+}
 
 h2{
     text-decoration: underline;
